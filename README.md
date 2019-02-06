@@ -14,7 +14,7 @@ Essential:
   * run main game API
 
 
-Other folders:
+Other:
 
 * `preprocessing/`
   * used to gather data from DBpedia
@@ -22,6 +22,16 @@ Other folders:
   * generates statistics
 * `data/`
   * contains game data ("facts") and game logs
+
+
+Starting AssociationGame API:
+
+```
+cd association-game/
+PYTHONPATH=. python gameapi/app.py &
+```
+
+It may be necessary to use `nohup` to keep Flask running even after logging off.
 
 
 
@@ -39,6 +49,6 @@ The game was deployed using Google Cloud and Cloud Functions
 
 ### Analysis
 
-One of the main reasons this project was created was to experiment with user-provided word associations. The following relevancy formular was used to determine relevant associations for a topic.
+One of the main reasons this project was created was to experiment with user-provided word associations. The following relevancy formular was used to determine relevant associations for a topic:
 
-<p align="center"><img src="assets/relevancy_formula.png" alt="relevancy formula" width="75%"></p>
+<p align="center"><img src="assets/relevancy_formula.png" alt="relevancy formula" width="70%"></p>
