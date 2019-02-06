@@ -47,8 +47,14 @@ The game was deployed using Google Cloud and Cloud Functions
 
 
 
-### Analysis
+### Analysis and User Study
 
 One of the main reasons this project was created was to experiment with user-provided word associations. The following relevancy formular was used to determine relevant associations for a topic:
 
 <p align="center"><img src="assets/relevancy_formula.png" alt="relevancy formula" width="70%"></p>
+
+An excerpt of some of user study findings:
+
+![](assets/userstudy_1.png)
+
+![](assets/userstudy_2.png)
