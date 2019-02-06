@@ -53,7 +53,7 @@ One of the main reasons this project was created was to experiment with user-pro
 
 <p align="center"><img src="assets/relevancy_formula.png" alt="relevancy formula" width="70%"></p>
 
-An excerpt of some of user study findings:
+An excerpt of some the of user study findings:
 
 ![](assets/userstudy_1.png)
 
